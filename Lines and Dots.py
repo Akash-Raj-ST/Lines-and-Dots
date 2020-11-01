@@ -2,7 +2,7 @@ n=int(input("No of Lines:"))
 fact=1
 fact1=[1]
 fact2=[0,1,1]
-j=1000000
+j=n*2
 for i in range(1,j):
     t=0
     fact=fact*i
